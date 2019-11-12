@@ -2,6 +2,7 @@ FROM nginx
 ARG DEBIAN_FRONTEND=noninteractive
 CMD mkdir /usr/share/backendCGI
 COPY shell /usr/share/backendCGI/
+COPY main.html /usr/share/backendCGI/
 COPY default.conf /etc/nginx/conf.d/default.conf
 COPY init /
 RUN apt-get update && apt-get install -yq fcgiwrap
