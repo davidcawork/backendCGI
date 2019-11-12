@@ -7,6 +7,8 @@ Docker Image: Nginx server with Shell script CGI integrated
 ```git clone <this repo>.git```
 
 ## Run:
-```cd backendCGI```
-```docker build . --no-cache -t backendcgi```
-```docker run -p80:80 -it backendcgi``` 
+```bash
+	cd backendCGI
+	docker build . --no-cache -t backendcgi
+	docker run -p80:80 -it backendcgi
+``` 
