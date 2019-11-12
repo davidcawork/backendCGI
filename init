@@ -1,0 +1,7 @@
+#!/bin/bash
+/etc/init.d/nginx start
+/etc/init.d/fcgiwrap restart
+chgrp nginx /var/run/fcgiwrap.socket
+chmod g+w /var/run/fcgiwrap.socket
+/etc/init.d/nginx restart
+bash
