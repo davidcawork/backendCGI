@@ -20,3 +20,4 @@ Docker Image: Nginx server with Shell script CGI integrated
 * ```shell```: It's the web page to load in the path **/shell**
 * ```default.conf```: nginx config
 * ```init```: aux shellscript
+* ```main.html```: index web page
