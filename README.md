@@ -14,9 +14,9 @@ Docker Image: Nginx server with Shell script CGI integrated
 ``` 
 ---
 
-### Contents
+## Contents
 
-* Dockerfile:  describe the Docker image
-* shell: It's the web page to load in the path **/shell**
-* default.conf: nginx config
-* init: aux shellscript
+* ```Dockerfile```:  describe the Docker image
+* ```shell```: It's the web page to load in the path **/shell**
+* ```default.conf```: nginx config
+* ```init```: aux shellscript
