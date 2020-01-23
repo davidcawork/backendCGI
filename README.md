@@ -28,3 +28,8 @@ zlib1g-dev yasm pkg-config \
 libgmp-dev libpcap-dev libbz2-dev \
 ocl-icd-opencl-dev opencl-headers \
 pocl-opencl-icd
+
+
+ tar xvfz \
+SecLists/Passwords/Leaked-Databases/ \
+rockyou.txt.tar.gz
